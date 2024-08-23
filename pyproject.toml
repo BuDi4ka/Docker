@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "homework"
+version = "3.12"
+description = "First experience with Poetry"
+authors = ["Dmytro Burdeniuk"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
